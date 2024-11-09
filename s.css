@@ -6,7 +6,7 @@
     --bs-gutter-y: 5rem;
 }
 main {
-    margin:calc(1.5 * var(--bs-gutter-y)) auto;
+    margin:calc(2 * var(--bs-gutter-y)) auto;
     width: 400px;
     height: 400px;
     box-shadow: 0px 0px 10px 6px #000;
@@ -78,12 +78,12 @@ li {
     font-family: 'Itim', serif;
     padding-bottom: 0.7rem;
 }
-/***********(min-width: 276px) and (max-width: 320px)***********/
-@media (min-width: 276px) and (max-width: 320px){
+/***********(min-width: 276px) and (max-width: 292px)***********/
+@media (min-width: 276px) and (max-width: 292px){
   main {
       width: auto;
       height: 276.2px;
-      margin:calc(1 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+      margin:calc(2.5* var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
       padding-bottom: calc(var(--bs-gutter-y) * 0.1);
    }
    .text {
@@ -93,47 +93,178 @@ li {
    }
    .img1 img { 
       width: 208px ;
-      padding-bottom: 0.51rem;
+      padding-bottom: 0.4rem;
       padding-top: 0.5rem;
    }
    .btn {
-      padding: 2.5px 8px;
+      padding: 2px 8px;
    }
    .tell {
-    padding-bottom: 0.621rem;
+    padding-bottom: 0.6rem;
     font-size: 0.85rem;
    }
 }
-/***********(min-width: 320px) and (max-width: 348px)***********/
-@media (min-width: 320px) and (max-width: 348px){
+/***********(min-width: 293px) and (max-width: 305px)***********/
+@media (min-width: 293px) and (max-width: 306px){
+    main {
+        width: auto;
+        height: 276.2px;
+        margin:calc(2.5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+        padding-bottom: calc(var(--bs-gutter-y) * 0.1);
+     }
+     .text {
+        font-size: 1.3rem;
+        margin: 0rem 1.5rem;
+        padding-top: 1.1rem;
+     }
+     .img1 img { 
+        width: 208px ;
+        padding-bottom: 0.5rem;
+        padding-top: 0.4rem;
+     }
+     .btn {
+        padding: 1.5px 7.5px;
+     }
+     .tell {
+      padding-bottom: 0.621rem;
+      font-size: 0.85rem;
+     }
+  }
+/***********(min-width: 306px) and (max-width: 319px)***********/
+@media (min-width: 306px) and (max-width: 320px){
+    main {
+        width: auto;
+        height: 276.2px;
+        margin:calc(2.5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+        padding-bottom: calc(var(--bs-gutter-y) * 0.1);
+     }
+     .text {
+        font-size: 1.3rem;
+        margin: 0rem 1.6em;
+        padding-top: 1.1rem;
+     }
+     .img1 img { 
+        width: 208px ;
+        padding-bottom: 0.51rem;
+        padding-top: 0.5rem;
+     }
+     .btn {
+        padding: 1.5px 7.5px;
+     }
+     .tell {
+      padding-bottom: 0.621rem;
+      font-size: 0.85rem;
+     }
+  }
+/***********(min-width: 320px) and (max-width: 320px)***********/
+@media (min-width: 320px) and (max-width: 320px){
     main {
         width: auto;
         height: 297.6px;
-        margin:calc(1 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+        margin:calc(2.5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
         padding-bottom: calc(var(--bs-gutter-y) * 0.1);
    }
    .text {
-        font-size: 1.32rem;
-        margin: 0rem 2rem;
-        padding-top: 1.85rem;
+        font-size: 1.5rem;
+        margin: 0rem 1.45rem;
+        padding-top: 1.2rem;
    }
    .img1 img { 
-        padding-bottom: 0.797rem;
-        padding-top: 0.6rem;
+        width: 80%;
+        padding-bottom: 0.5rem;
+        padding-top: 0.3em;
    }
    .btn {
-        padding: 2.5px 8px;
+        padding: 2px 8px;
    }
    .tell {
         font-size: 0.9rem;
+        padding-bottom: 0.55rem;
    }
 }
-/***********(min-width: 348px) and (max-width: 372px)***********/
-@media (min-width: 348px) and (max-width: 372px){
+/***********(min-width: 321px) and (max-width: 332px)***********/
+@media (min-width: 321px) and (max-width: 333px){
+    main {
+        width: auto;
+        height: 297.6px;
+        margin:calc(2.5* var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+        padding-bottom: calc(var(--bs-gutter-y) * 0.1);
+   }
+   .text {
+        font-size: 1.5rem;
+        margin: 0rem 1.5rem;
+        padding-top: 1.2rem;
+   }
+   .img1 img { 
+        padding-bottom: 0.35rem;
+        padding-top: 0.2rem;
+   }
+   .btn {
+        padding: 2px 8px;
+   }
+   .tell {
+        font-size: 0.9rem;
+        padding-bottom: 0.52rem;
+   }
+}
+/***********(min-width: 333px) and (max-width: 341px)***********/
+@media (min-width: 333px) and (max-width: 342px){
+    main {
+        width: auto;
+        height: 297.6px;
+        margin:calc(2.5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+        padding-bottom: calc(var(--bs-gutter-y) * 0.1);
+   }
+   .text {
+        font-size: 1.5rem;
+        margin: 0rem 1.9rem;
+        padding-top: 1rem;
+   }
+   .img1 img { 
+        width: 78%;
+        padding-bottom: 0.5rem;
+        padding-top: 0.25rem;
+   }
+   .btn {
+        padding: 2px 8px;
+   }
+   .tell {
+        font-size: 0.9rem;
+        padding-bottom: 0.45rem;
+   }
+}
+/***********(min-width: 342px) and (max-width: 352px)***********/
+@media (min-width: 342px) and (max-width: 352px){
+    main {
+        width: auto;
+        height: 297.6px;
+        margin:calc(2.5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+        padding-bottom: calc(var(--bs-gutter-y) * 0.1);
+   }
+   .text {
+        font-size: 1.5rem;
+        margin: 0rem 1.9rem;
+        padding-top: 1rem;
+   }
+   .img1 img { 
+        width: 75%;
+        padding-bottom: 0.4rem;
+        padding-top: 0.3rem;
+   }
+   .btn {
+        padding: 2px 8px;
+   }
+   .tell {
+        font-size: 0.9rem;
+        padding-bottom: 0.6rem;
+   }
+}
+/***********(min-width: 353px) and (max-width: 360px)***********/
+@media (min-width: 353px) and (max-width: 360px){
   main {
       width: auto;
       height: 316px;
-      margin:calc(1 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+      margin:calc(2.5* var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
       padding-bottom: calc(var(--bs-gutter-y) * 0.1);
  }
   .text {
@@ -143,36 +274,183 @@ li {
  }
   .img1 img { 
     padding-bottom: 0.2rem;
-    padding-top: 0.379rem;
+    padding-top: 0.36rem;
  }
   .btn {
-      padding: 2.5px 8px;
+      padding: 2px 8px;
  }
   .tell {
-      padding-bottom: 0.4rem;
+      padding-bottom: 0.5rem;
   }
 }
-/***********(min-width: 372px) and (max-width: 400px)***********/
-@media (min-width: 372px) and (max-width: 400px){
+/***********(min-width: 361px) and (max-width: 371px)***********/
+@media (min-width: 361px) and (max-width: 372px){
     main {
         width: auto;
-        height: 326.4px;
-        margin:calc(1 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+        height: 316px;
+        margin:calc(2.5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
         padding-bottom: calc(var(--bs-gutter-y) * 0.1);
    }
     .text {
-        font-size: 1.7rem;
+        font-size: 1.68rem;
         margin: 0rem 1.5rem;
-        padding-top: 1.263rem;
+        padding-top: 1rem;
    }
     .img1 img { 
       padding-bottom: 0.2rem;
-      padding-top: 5.15px;
+      padding-top: 0.25rem;
    }
     .btn {
-        padding: 2.5px 8px;
+        padding: 2px 8px;
    }
     .tell {
         padding-bottom: 0.4rem;
     }
   }
+  /***********(min-width: 372px) and (max-width: 376px)***********/
+@media (min-width: 372px) and (max-width: 376px){
+    main {
+        width: auto;
+        height: 326.4px;
+        margin:calc(2.5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+        padding-bottom: calc(var(--bs-gutter-y) * 0.1);
+   }
+    .text {
+        font-size: 1.7rem;
+        margin: 0rem 1.5rem;
+        padding-top: 1.1rem;
+   }
+    .img1 img { 
+      padding-bottom: 0.3rem;
+      padding-top: 0.2rem;
+   }
+    .btn {
+        padding: 2px 8px;
+   }
+    .tell {
+        padding-bottom: 0.55rem;
+    }
+  }
+/***********(min-width: 377px) and (max-width: 384px)***********/
+@media (min-width: 377px) and (max-width: 384px){
+    main {
+        width: auto;
+        height: 326.4px;
+        margin:calc(2.5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+        padding-bottom: calc(var(--bs-gutter-y) * 0.1);
+   }
+    .text {
+        font-size: 1.7rem;
+        margin: 0rem 2rem;
+        padding-top: 1.2rem;
+   }
+    .img1 img { 
+        width: 78%;
+        padding-bottom: 0.3rem;
+        padding-top: 0.2rem;
+   }
+    .btn {
+        padding: 2px 8px;
+   }
+    .tell {
+        padding-bottom: 0.4rem;
+    }
+  }
+/***********(min-width: 385px) and (max-width: 391px)***********/
+@media (min-width: 385px) and (max-width: 392px){
+    main {
+        width: auto;
+        height: 326.4px;
+        margin:calc(2.5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+        padding-bottom: calc(var(--bs-gutter-y) * 0.1);
+   }
+    .text {
+        font-size: 1.7rem;
+        margin: 0rem 2rem;
+        padding-top: 1.263rem;
+   }
+    .img1 img { 
+        width: 76%;
+        padding-bottom: 0.2rem;
+        padding-top: 5px;
+   }
+    .btn {
+        padding: 2px 8px;
+   }
+    .tell {
+        padding-bottom: 0.5rem;
+    }
+  }
+/***********(min-width: 392px) and (max-width: 400px)***********/
+@media (min-width: 392px) and (max-width: 400px){
+    main {
+        width: auto;
+        height: 326.4px;
+        margin:calc(2.5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+        padding-bottom: calc(var(--bs-gutter-y) * 0.1);
+   }
+    .text {
+        font-size: 1.7rem;
+        margin: 0rem 2.4rem;
+        padding-top: 1.2rem;
+   }
+    .img1 img { 
+        width: 75%;
+        padding-bottom: 0.2rem;
+        padding-top: 5.15px;
+   }
+    .btn {
+        padding: 2px 8px;
+   }
+    .tell {
+        padding-bottom: 0.5rem;
+    }
+  }
+  /***********(min-width: 401px) and (max-width: 412px)***********/
+@media (min-width: 401px) and (max-width: 412px){
+    main {
+        width: auto;
+        height: 400px;
+        margin:calc(2 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+   }
+   .text {
+    font-size: 2rem;
+    margin: 0rem 1.2rem;
+    padding-top: 1.4rem;
+   }
+   .img1 img { 
+    width: 85%;
+    padding-bottom: 0.8rem;
+    padding-top: 0.3rem;
+   }
+   li {
+    padding-top: 0rem;
+   }
+   .tell {
+    font-size: 1.2rem;
+   }
+}
+ /***********(min-width: 413px) and (max-width: 420px)***********/
+ @media (min-width: 413px) and (max-width: 420px){
+    main {
+        width: auto;
+        height: 400px;
+        margin:calc(2 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+   }
+   .text {
+    font-size: 2rem;
+    margin: 0rem 1.2rem;
+    padding-top: 1.3rem;
+   }
+   .img1 img { 
+    width: 85%;
+    padding-bottom: 0.7rem;
+    padding-top: 0.3rem;
+   }
+   li {
+    padding-top: 0rem;
+   }
+   .tell {
+    font-size: 1.2rem;
+   }
+}
