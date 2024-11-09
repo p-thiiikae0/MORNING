@@ -98,8 +98,8 @@
  /***********(min-width: 276px) and (max-width: 320px)***********/
  @media (min-width: 276px) and (max-width: 320px){
      main {
-         width: auto;
-         height: auto;
+          width: auto;
+          height: 276.2px;
          margin:calc(1 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
          padding-bottom: calc(var(--bs-gutter-y) * 0.1);
     }
@@ -141,7 +141,7 @@
  @media (min-width: 320px) and (max-width: 348px){
     main {
         width: auto;
-        height: auto;
+        height: 297.6px;
         margin:calc(1 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
         padding-bottom: calc(var(--bs-gutter-y) * 0.1);
    }
@@ -183,7 +183,7 @@
  @media (min-width: 348px) and (max-width: 372px){
     main {
         width: auto;
-        height: auto;
+        height: 316px;
         margin:calc(1 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
         padding-bottom: calc(var(--bs-gutter-y) * 0.1);
    }
@@ -225,7 +225,7 @@
   @media (min-width: 372px) and (max-width: 400px){
      main {
          width: auto;
-         height: auto;
+         height: 326.4px;
          margin:calc(1 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
          padding-bottom: calc(var(--bs-gutter-y) * 0.1);
     }
