@@ -3,13 +3,13 @@
     padding : 0;
     box-sizing: border-box;
     --bs-gutter-x: 2rem;
-    --bs-gutter-y: 5rem;
+    --bs-gutter-y: 2rem;
 }
 main {
      /*border: 5px solid #febff1b0;*/
      width: 400px;
      height: 400px;
-     margin:calc(2 * var(--bs-gutter-y)) auto;
+     margin:calc( 5* var(--bs-gutter-y)) auto;
      background-color:white;
      box-shadow: 0px 0px 10px 6px #000;
      overflow: hidden;
@@ -91,7 +91,7 @@ main {
      main {
          width: auto;
          height: 276.2px;
-         margin:calc(2.5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
          padding-bottom: calc(var(--bs-gutter-y) * 0.1);
     }
      .t1 { 
@@ -128,7 +128,7 @@ main {
      main {
         width: auto;
         height: 276.2px;
-         margin:calc(2.5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
          padding-bottom: calc(var(--bs-gutter-y) * 0.1);
     }
      .t1 { 
@@ -167,7 +167,7 @@ main {
      main {
         width: auto;
         height: 276.2px;
-         margin:calc(2.5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
          padding-bottom: calc(var(--bs-gutter-y) * 0.1);
     }
      .t1 { 
@@ -203,7 +203,7 @@ main {
      main {
           width: auto;
           height: 297.6px;
-         margin:calc(2.5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
          padding-bottom: calc(var(--bs-gutter-y) * 0.1);
     }
      .t1 { 
@@ -240,7 +240,7 @@ main {
      main {
           width: auto;
           height: 297.6px;
-         margin:calc(2.5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
          padding-bottom: calc(var(--bs-gutter-y) * 0.1);
     }
      .t1 { 
@@ -278,7 +278,7 @@ main {
      main {
           width: auto;
           height: 297.6px;
-         margin:calc(2.5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
          padding-bottom: calc(var(--bs-gutter-y) * 0.1);
     }
      .t1 { 
@@ -315,7 +315,7 @@ main {
      main {
           width: auto;
           height: 297.6px;
-         margin:calc(2.5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
          padding-bottom: calc(var(--bs-gutter-y) * 0.1);
     }
      .t1 { 
@@ -350,7 +350,7 @@ main {
      main {
          width: auto;
          height: 316px;
-         margin:calc(2.5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
          padding-bottom: calc(var(--bs-gutter-y) * 0.1);
     }
      .img1 img {
@@ -388,7 +388,7 @@ main {
      main {
          width: auto;
          height: 316px;
-         margin:calc(2.5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
          padding-bottom: calc(var(--bs-gutter-y) * 0.1);
     }
      .img1 img {
@@ -427,7 +427,7 @@ main {
      main {
          width: auto;
          height: 326.4px;
-         margin:calc(2.5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
          padding-bottom: calc(var(--bs-gutter-y) * 0.1);
     }
      .img1 img {
@@ -467,7 +467,7 @@ main {
        main {
            width: auto;
            height: 326.4px;
-           margin:calc(2.5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+           margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
            padding-bottom: calc(var(--bs-gutter-y) * 0.1);
       }
        .img1 img {
@@ -509,7 +509,7 @@ main {
      main {
          width: auto;
          height: 326.4px;
-         margin:calc(2.5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
          padding-bottom: calc(var(--bs-gutter-y) * 0.1);
     }
      .img1 img {
@@ -551,7 +551,7 @@ main {
      main {
          width: auto;
          height: 400px;
-         margin:calc(2 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
     }
     .t1 { 
            font-size: 12px;
