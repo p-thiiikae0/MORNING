@@ -5,504 +5,268 @@
     --bs-gutter-x: 2rem;
     --bs-gutter-y: 2rem;
     }
-    main {
-        width: 400px;
-        height: 400px;
-        margin:calc(5* var(--bs-gutter-y)) auto;
-        box-shadow: 0px 0px 10px 6px #000;
-        overflow: hidden;
-        border-radius: 20px;
-        font-family: 'Itim', serif;
-        background-image: url("flower.webp");
-        background-size: cover;
-    }
-    li {
-        list-style: none;
-    }
-    .btn {
-        font-family: 'Tiny5', serif;
-        list-style: none;
-        border: 2px solid #000;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        padding: 5px 18px;
-        font-size: 1rem;
-        cursor: pointer;
-        background-color: #fff;
-        position: relative;
-        transition: all 0.25s ease;
-        color: #000;
-        overflow: hidden;
-        border-radius: 30px;
-    }
-    .btn:hover {
-        transform: translate(0,-5px);
-        border-style: none;
-    }
-    .btn:hover ::after {
-        transform: rotate(150deg);
-    }
-    .btn::after {
-        content: "";
-        width: 360px;
-        height: 360px;
-        position: absolute;
-        top: -50px;
-        left: -100px;
-        background-color:#febff1;
-        z-index: -1;
-        transition: all 0.25s ease;
-    }
-    .text {
-        font-size: 13px;
-        padding: 1rem 1rem 0.5rem 1rem;
-        background-color: #ffffffbe;
-        margin: 0rem 2rem ;
-        border-radius: 30px;
-    }
-    .t1 {
-        font-family: 'Tiny5', serif;
-        font-size: larger;
-        color: #ffe14b;
-        text-shadow: 1px 1px 0px #000;
-        margin-top: 1rem;
-        padding-left: 3rem;
-        padding-bottom: 0.25rem;
-    }
-    .t3 {
-        padding-top: 0.5rem;
-        font-size: xx-small;
-        display: flex;
-        margin: 0rem 0.5rem;
-        justify-content: right;
-    }
-    .t5 {
-        font-size: 13.5px;
-        color: #febff1;
-        text-shadow: 1px 1px 1px #000;
-        padding-top: 0.7rem;
-        padding-bottom: 0.2rem;
-    }
-    .t6 {
-        display: flex;
-        justify-content: right;
-        font-size: 12px;
-        padding-top: 1rem;
-    }
-    .t7 {
-        color: #ffe14b;
-        text-shadow: 1px 1px 0px #000;
-        padding-top: 0.8rem;
-        padding-bottom: 0.65rem;
-    }
-   /***********(min-width: 283px) and (max-width: 288px)***********/
-   @media (min-width: 283px) and (max-width: 288px){
+main {
+     width: 400px;
+     height: 400px;
+     margin:calc(5* var(--bs-gutter-y)) auto;
+     box-shadow: 0px 0px 10px 6px #000;
+     overflow: hidden;
+     border-radius: 20px;
+     font-family: 'Itim', serif;
+     background-image: url("flower.webp");
+     background-size: cover;
+     position: relative;
+ }
+ li {
+     list-style: none;
+     position: absolute;
+     z-index: 999;
+     display: flex;
+     top: 88%;
+     transform: translatex(-50%);
+     left: 50%;
+ }
+ .btn {
+     font-family: 'Tiny5', serif;
+     list-style: none;
+     border: 2px solid #000;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     padding: 5.5px 18.5px;
+     font-size: 1rem;
+     cursor: pointer;
+     background-color: #fff;
+     position: relative;
+     transition: all 0.25s ease;
+     color: #000;
+     overflow: hidden;
+     border-radius: 30px;
+ }
+ .btn:hover {
+     transform: translate(0,-5px);
+     border-style: none;
+ }
+ .btn:hover ::after {
+     transform: rotate(150deg);
+ }
+ .btn::after {
+     content: "";
+     width: 360px;
+     height: 360px;
+     position: absolute;
+     top: -50px;
+     left: -100px;
+     background-color:#febff1;
+     z-index: -1;
+     transition: all 0.25s ease;
+ }
+ .text {
+     font-size: 13px;
+     padding: 1rem 1rem 0.5rem 1rem;
+     background-color: #ffffffbe;
+     margin: 0rem 2rem ;
+     border-radius: 30px;
+ }
+ .t1 {
+     font-family: 'Tiny5', serif;
+     font-size: larger;
+     color: #ffe14b;
+     text-shadow: 1px 1px 0px #000;
+     margin-top: 1rem;
+     padding-left: 3rem;
+     padding-bottom: 0.25rem;
+ }
+ .t3 {
+     padding-top: 0.5rem;
+     font-size: xx-small;
+     display: flex;
+     margin: 0rem 0.5rem;
+     justify-content: right;
+ }
+ .t5 {
+     font-size: 13.5px;
+     color: #febff1;
+     text-shadow: 1px 1px 1px #000;
+     padding-top: 0.7rem;
+     padding-bottom: 0.2rem;
+ }
+ .t6 {
+     display: flex;
+     justify-content: right;
+     font-size: 12px;
+     padding-top: 1rem;
+ }
+ .t7 {
+     color: #ffe14b;
+     text-shadow: 1px 1px 0px #000;
+     padding-top: 0.8rem;
+ }
+/***********(min-width: 300px) and (max-width: 323px)***********/
+@media (min-width: 300px) and (max-width: 324px){
      main {
           width: auto;
-          height: 276.2px;
-         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
-         padding-bottom: calc(var(--bs-gutter-y) * 0.1);
-    }
-    .text {
-         padding: 0.8rem 1rem 0.6rem 1rem;
-         font-size: 8px;
-         margin: 0rem 1rem;
-    }
-    .t1 {
-         font-size: 12px;
-         margin: 0.5rem;
-         padding-left: 1rem;
-         margin-bottom: 0rem;
-    }
-    .t3 {
-         font-size: 6px;
-         padding-top: 0.25rem;
-         margin: 0rem;
-    }
-    .t5 {
-         padding-top: 0.3rem;
-         font-size: 8.5px;
-    }
-    .t6 {
-         font-size: 7px;
-         padding-top: 0.3rem;
-    }
-    .t7 {
-         font-size: 10px;
-         padding-bottom:0.4rem;
-    }
-    .btn {
-         padding: 2.5px 14px;
-    }
- }
- /***********(min-width: 289px) and (max-width: 301px)***********/
- @media (min-width: 289px) and (max-width: 302px){
+          height: 312px;
+          margin:calc(5* var(--bs-gutter-y)) auto;
+          margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+      }
+      .text {
+          font-size: 8.25px;
+          padding: 1rem 1rem 0.5rem 1rem;
+          margin: 0rem 1.5rem ;
+      }
+      .t1 {
+          font-size: 11px;
+          margin-top: 1rem;
+          padding-left: 2rem;
+          padding-bottom: 0.25rem;
+      }
+      .t3 {
+          font-size: 6px;
+          padding-top: 0.5rem;
+          display: flex;
+          margin: 0rem 0rem;
+      }
+      .t5 {
+          font-size: 8.5px;
+          padding-top: 0.7rem;
+          padding-bottom: 0.2rem;
+      }
+      .t6 {
+          font-size: 7px;
+          padding-top: 1rem;
+      }
+      .t7 {
+          padding-top: 0.8rem;
+          font-size: 10px;
+      }
+      .btn {
+          padding: 2.5px 14px;
+      }
+}
+/***********(min-width: 324px) and (max-width: 347px)***********/
+@media (min-width: 324px) and (max-width: 348px){
      main {
           width: auto;
-          height: 276.2px;
-         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
-         padding-bottom: calc(var(--bs-gutter-y) * 0.1);
-    }
-    .text {
-         padding: 0.8rem 1rem 0.6rem 1rem;
-         font-size: 8.5px;
-         margin: 0rem 1rem;
-    }
-    .t1 {
-         font-size: 12px;
-         margin: 0.5rem;
-         padding-left: 1rem;
-         margin-bottom: 0rem;
-    }
-    .t3 {
-         font-size: 6px;
-         padding-top: 0.25rem;
-         margin: 0rem;
-    }
-    .t5 {
-         padding-top: 0.3rem;
-         font-size: 8.8px;
-    }
-    .t6 {
-         font-size: 7px;
-         padding-top: 0.3rem;
-    }
-    .t7 {
-         font-size: 10px;
-         padding-bottom:0.4rem;
-    }
-    .btn {
-         padding: 2.5px 14px;
-    }
- }
- /***********(min-width: 302px) and (max-width: 319px)***********/
- @media (min-width: 302px) and (max-width: 320px){
+          height: 324px;
+          margin:calc(5* var(--bs-gutter-y)) auto;
+          margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+      }
+      .text {
+          font-size: 9.25px;
+          padding: 1rem 1rem 0.5rem 1rem;
+          margin: 0rem 1.5rem ;
+      }
+      .t1 {
+          font-size: 12px;
+          margin-top: 1rem;
+          padding-left: 2rem;
+          padding-bottom: 0.25rem;
+      }
+      .t3 {
+          font-size: 7px;
+          padding-top: 0.5rem;
+          display: flex;
+          margin: 0rem 0rem;
+      }
+      .t5 {
+          font-size: 9.5px;
+          padding-top: 0.7rem;
+          padding-bottom: 0.2rem;
+      }
+      .t6 {
+          font-size: 8px;
+          padding-top: 1rem;
+      }
+      .t7 {
+          padding-top: 0.8rem;
+          font-size: 10px;
+      }
+      .btn {
+          padding: 2.5px 14px;
+      }
+}
+/***********(min-width: 348px) and (max-width: 371px)***********/
+@media (min-width: 348px) and (max-width: 372px){
      main {
           width: auto;
-          height: 276.2px;
-         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
-         padding-bottom: calc(var(--bs-gutter-y) * 0.1);
-    }
-    .text {
-         padding: 0.8rem 1rem 0.6rem 1rem;
-         font-size: 9px;
-         margin: 0rem 1rem;
-    }
-    .t1 {
-         font-size: 12px;
-         margin: 0.5rem;
-         padding-left: 1rem;
-         margin-bottom: 0rem;
-    }
-    .t3 {
-         font-size: 6px;
-         padding-top: 0.25rem;
-         margin: 0rem 0.2rem;
-    }
-    .t5 {
-         padding-top: 0.3rem;
-         font-size: 9px;
-    }
-    .t6 {
-         font-size: 7px;
-         padding-top: 0.1rem;
-    }
-    .t7 {
-         font-size: 10px;
-         padding-top: 0.5rem;
-         padding-bottom:0.4rem;
-    }
-    .btn {
-         padding: 2.5px 14px;
-    }
- }
- /***********(min-width: 320px) and (max-width: 327px)***********/
- @media (min-width: 320px) and (max-width: 328px){
-     main {
-         width: auto;
-         height: 297.6px;
-         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
-         padding-bottom: calc(var(--bs-gutter-y) * 0.1);
-    }
-    .text {
-         font-size: 9.8px;
-         margin: 0rem 1rem;
-    }
-    .t1 {
-         font-size: 11px;
-         margin: 0.5rem;
-         padding-left: 1rem;
-         margin-bottom: 0rem;
-    }
-    .t3 {
-         font-size: 7px;
-         padding-top: 0.3rem;
-         padding-bottom: 0.4rem;
-         margin: 0rem;
-    }
-    .t5 {
-         padding: 0rem;
-         padding-bottom: 3px;
-         font-size: 10px;
-    }
-    .t6 {
-         font-size: 8.5px;
-         padding-top: 0.5rem;
-    }
-    .t7 {
-         padding-top: 0.35rem;
-         padding-bottom: 0.5rem;
-         font-size: 11px;
-    }
-    .btn {
-         padding: 2.8px 14px;
-    }
- }
-/***********(min-width: 328px) and (max-width: 336px)***********/
-@media (min-width: 328px) and (max-width: 336px){
-    main {
-        width: auto;
-        height: 297.6px;
-        margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
-        padding-bottom: calc(var(--bs-gutter-y) * 0.1);
-   }
-   .text {
-        font-size: 10px;
-        margin: 0rem 1rem;
-   }
-   .t1 {
-        font-size: 11px;
-        margin: 0.5rem;
-        padding-left: 1rem;
-        margin-bottom: 0rem;
-   }
-   .t3 {
-        font-size: 7px;
-        padding-top: 0.3rem;
-        padding-bottom: 0.4rem;
-        margin: 0rem 0.2rem;
-   }
-   .t5 {
-        padding: 0rem;
-        padding-bottom: 3px;
-        font-size: 10.5px;
-   }
-   .t6 {
-        font-size: 8.5px;
-        padding-top: 0.4rem;
-   }
-   .t7 {
-        padding-top: 0.35rem;
-        padding-bottom: 0.5rem;
-        font-size: 11px;
-   }
-   .btn {
-        padding: 2.8px 15px;
-   }
+          height: 336px;
+          margin:calc(5* var(--bs-gutter-y)) auto;
+          margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+      }
+      .text {
+          font-size: 9.8px;
+          padding: 1rem 1rem 0.5rem 1rem;
+          margin: 0rem 1.8rem ;
+      }
+      .t1 {
+          font-size: 13px;
+          margin-top: 1rem;
+          padding-left: 2rem;
+          padding-bottom: 0.25rem;
+      }
+      .t3 {
+          font-size: 7px;
+          padding-top: 0.5rem;
+          display: flex;
+          margin: 0rem 0.3rem;
+      }
+      .t5 {
+          font-size: 10.2px;
+          padding-top: 0.7rem;
+          padding-bottom: 0.2rem;
+      }
+      .t6 {
+          font-size: 9px;
+          padding-top: 1rem;
+      }
+      .t7 {
+          padding-top: 1rem;
+          font-size: 10.2px;
+      }
+      .btn {
+          padding: 2.5px 14px;
+      }
 }
-/***********(min-width: 337px) and (max-width: 352px)***********/
-@media (min-width: 337px) and (max-width: 353px){
+/***********(min-width: 372px) and (max-width: 395px)***********/
+@media (min-width: 372px) and (max-width: 396px){
      main {
-         width: auto;
-         height: 297.6px;
-         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
-         padding-bottom: calc(var(--bs-gutter-y) * 0.1);
-    }
-    .text {
-         font-size: 10.5px;
-         margin: 0rem 1rem;
-    }
-    .t1 {
-         font-size: 11px;
-         margin: 0.5rem;
-         padding-left: 1rem;
-         margin-bottom: 0rem;
-    }
-    .t3 {
-         font-size: 7px;
-         padding-top: 0.3rem;
-         padding-bottom: 0.5rem;
-         margin: 0rem 0.2rem;
-    }
-    .t5 {
-         padding: 0rem;
-         padding-bottom: 0.2rem;
-         font-size: 11px;
-    }
-    .t6 {
-         font-size: 8.5px;
-         padding-top: 0.3rem;
-    }
-    .t7 {
-         padding-top: 0.35rem;
-         padding-bottom: 0.5rem;
-         font-size: 11px;
-    }
-    .btn {
-         padding: 2.8px 15px;
-    }
- }
- /***********(min-width: 353px) and (max-width: 371px)***********/
- @media (min-width: 353px) and (max-width: 372px){
-    main {
-        width: auto;
-        height: 316px;
-        margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
-        padding-bottom: calc(var(--bs-gutter-y) * 0.1);
-   }
-   .text {
-        font-size: 11px;
-        margin: 0rem 1.2rem;
-   }
-   .t1 {
-        font-size: 12px;
-        margin: 0.5rem;
-        padding-left: 1rem;
-        margin-bottom: 0rem;
-   }
-   .t3 {
-        font-size: 8px;
-        padding: 0.3rem 0rem;
-        margin: 0rem 0.2rem;
-   }
-   .t5 {
-        font-size: 11.5px;
-        padding: 0.25rem 0rem;
-   }
-   .t6 {
-        font-size: 9px;
-        padding-top: 0.25rem;
-   }
-   .t7 {
-        font-size: 11.5px;
-        padding-bottom: 0.55rem;
-        padding-top: 0.4rem;
-   }
-   .btn {
-        padding: 2.8px 15px;
-   }
+          width: auto;
+          height: 348px;
+          margin:calc(5* var(--bs-gutter-y)) auto;
+          margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+      }
+      .text {
+          font-size: 11px;
+          padding: 1rem 1rem 0.5rem 1rem;
+          margin: 0rem 1.8rem ;
+      }
+      .t1 {
+          font-size: 15px;
+          margin-top: 0.8rem;
+          padding-left: 2rem;
+          padding-bottom: 0.25rem;
+      }
+      .t3 {
+          font-size: 8px;
+          padding-top: 0.5rem;
+          display: flex;
+          margin: 0rem 0.3rem;
+      }
+      .t5 {
+          font-size: 11.4px;
+          padding-top: 0.7rem;
+          padding-bottom: 0.2rem;
+      }
+      .t6 {
+          font-size: 10px;
+          padding-top: 1rem;
+      }
+      .t7 {
+          padding-top: 0.8rem;
+          font-size: 12px;
+      }
+      .btn {
+          padding: 2.5px 14px;
+      }
 }
- /***********(min-width: 372px) and (max-width: 384px)***********/
-  @media (min-width: 372px) and (max-width: 384px){
-     main {
-         width: auto;
-         height: 326.4px;
-         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
-         padding-bottom: calc(var(--bs-gutter-y) * 0.1);
-    }
-    .text {
-         font-size: 11.8px;
-         margin: 0rem 1.2rem;
-    }
-    .t1 {
-         font-size: 13px;
-         margin: 0.5rem;
-         padding-left: 1rem;
-         margin-bottom: 0rem;
-    }
-    .t3 {
-         font-size: 7px;
-         padding-top: 0.2rem;
-         padding-bottom: 0.5rem;
-         margin: 0rem 0.2rem;
-    }
-    .t5 {
-         padding: 0rem;
-         padding-bottom: 3px;
-         font-size: 12px;
-    }
-    .t6 {
-         font-size: 9px;
-         padding-top: 0rem;
-    }
-    .t7 {
-         padding-bottom: 0.55rem;
-         padding-top: 0.4rem;
-         font-size: 12px;
-    }
-    .btn {
-         padding: 2.8px 15px;
-    }
-}
- /***********(min-width: 385px) and (max-width: 400px)***********/
- @media (min-width: 385px) and (max-width: 400px){
-     main {
-         width: auto;
-         height: 326.4px;
-         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
-         padding-bottom: calc(var(--bs-gutter-y) * 0.1);
-    }
-    .text {
-         font-size: 12px;
-         margin: 0rem 1.5rem;
-    }
-    .t1 {
-         font-size: 12.8px;
-         margin: 0.5rem;
-         padding-left: 1rem;
-         margin-bottom: 0rem;
-    }
-    .t3 {
-         font-size: 8px;
-         padding-top: 0.2rem;
-         padding-bottom: 0.3rem;
-         margin: 0rem 0.2rem;
-    }
-    .t5 {
-         padding: 0rem;
-         padding-bottom: 0.2rem;
-         font-size: 12.4px;
-    }
-    .t6 {
-         font-size: 10px;
-         padding-top: 0rem;
-    }
-    .t7 {
-         padding-bottom: 0.5rem;
-         padding-top: 0.4rem;
-         font-size: 12.4px;
-    }
-    .btn {
-         padding: 2.8px 15px;
-    }
-}
-/***********(min-width: 401px) and (max-width: 420px)***********/
-@media (min-width: 401px) and (max-width: 420px){
-     main {
-         width: auto;
-         height: 400px;
-         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
-    }
-    .text {
-         font-size: 12.5px;
-         margin: 0rem 1.5rem;
-    }
-    .t1 {
-         font-size: 16px;
-         margin: 0.5rem;
-         padding-left: 1.2rem;
-         margin-bottom: 0rem;
-         padding-top: 0.5rem;
-    }
-    .t3 {
-         font-size: 9px;
-         padding-top: 0.5rem;
-         padding-bottom: 0.6rem;
-         margin: 0rem 0.2rem;
-    }
-    .t5 {
-         padding: 0rem;
-         padding-bottom: 0.3rem;
-         font-size: 13px;
-    }
-    .t6 {
-         font-size: 11px;
-         padding-top: 0.7rem;
-    }
-    .t7 {
-         padding-bottom: 0.9rem;
-         padding-top: 1rem;
-         font-size: 14px;
-    }
- }

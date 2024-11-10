@@ -28,12 +28,12 @@ main {
      transform: translateY(-6%);
  }
  li {
-     padding-top: 7.15rem;
      position: absolute;
      z-index: 999;
      display: flex;
+     top: 88%;
+     transform: translatex(-50%);
      left: 50%;
-     transform: translateX(-50%);
  }
  .btn {
      list-style: none;
@@ -86,496 +86,137 @@ main {
      font-family: 'Itim', serif;
      width: 228px;
  }
- /***********(min-width: 283px) and (max-width: 303px)***********/
- @media (min-width: 283px) and (max-width: 304px){
-     main {
-         width: auto;
-         height: 276.2px;
-         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
-         padding-bottom: calc(var(--bs-gutter-y) * 0.1);
-    }
-     .t1 { 
-         font-size: 8px;
-         padding-bottom: 1rem;
-         padding: 1.5rem;
-    }
-     .t2 { 
-         font-size: 8px;
-         padding:0rem;
-         padding-left: 1.5rem;
-         width: 150px;
-    }
-    .img1 img {
-         width:100px;
-    }
-    .img1 {
-         position: relative;
-         transform: translateY(-15%);
-         padding-right: 1rem;
-    }
-    li {
-         padding-top: 3.9rem;
-    }
-    .btn {
-         padding: 1.5px 8.5px;
-    }
-    .content {
-         height: 93px;
-    }
-}
-/***********(min-width: 304px) and (max-width: 314px)***********/
-@media (min-width: 304px) and (max-width: 315px){
-     main {
-        width: auto;
-        height: 276.2px;
-         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
-         padding-bottom: calc(var(--bs-gutter-y) * 0.1);
-    }
-     .t1 { 
-         font-size: 8.6px;
-         padding-left: 1.8rem;
-         padding-right: 1.8rem;
-         padding-bottom: 1rem;
-         padding-top: 1.5rem;
-    }
-     .t2 { 
-         font-size: 8.6px;
-         padding:0rem;
-         padding-left: 1.8rem;
-         width: 180px;
-    }
-    .img1 img {
-         width:105px;
-    }
-    .img1 {
-         position: relative;
-         transform: translateY(-15%);
-         padding-right: 1rem;
-    }
-    li {
-         padding-top: 3.9rem;
-    }
-    .btn {
-         padding: 1.5px 8.5px;
-    }
-    .content {
-         height: 6rem;
-    }
-}
-/***********(min-width: 315px) and (max-width: 320px)***********/
-@media (min-width: 315px) and (max-width: 320px){
-     main {
-        width: auto;
-        height: 276.2px;
-         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
-         padding-bottom: calc(var(--bs-gutter-y) * 0.1);
-    }
-     .t1 { 
-         font-size: 9px;
-         padding: 1rem 1.6rem;
-    }
-     .t2 { 
-         font-size: 9px;
-         padding:0rem;
-         padding-left: 1.6rem;
-         width: 180px;
-    }
-    .img1 img {
-         width:110px;
-    }
-    .img1 {
-         position: relative;
-         transform: translateY(-15%);
-         padding-right: 1rem;
-    }
-    li {
-         padding-top: 3.8rem;
-    }
-    .btn {
-         padding: 1.5px 8.5px;
-    }
-    .content {
-         height: 93px;
-    }
-}
- /***********(min-width: 320px) and (max-width: 320px)***********/
- @media (min-width: 320px) and (max-width: 320px){
+/***********(min-width: 300px) and (max-width: 323px)***********/
+@media (min-width: 300px) and (max-width: 324px){
      main {
           width: auto;
-          height: 297.6px;
-         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
-         padding-bottom: calc(var(--bs-gutter-y) * 0.1);
-    }
-     .t1 { 
-         font-size: 9.5px;
-         padding: 1.5rem;
-         padding-bottom: 1rem;
-         width: 290px;
-    }
-     .t2 { 
-         font-size: 9.5px;
-         padding:0rem 0rem 0rem 1.5rem;
-         width: 200px;
-    }
-    .img1 img {
-         width:108px;
-    }
-    .img1 {
-         position: relative;
-         transform: translateY(-15%);
-         padding-right: 1rem;
-    }
-    li {
-         padding-top: 4.5rem;
-    }
-    .btn {
-         padding: 2px 9px;
-    }
-    .content {
-         height: 6rem;
-    }
- }
- /***********(min-width: 320px) and (max-width: 329px)***********/
- @media (min-width: 321px) and (max-width: 330px){
-     main {
-          width: auto;
-          height: 297.6px;
-         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
-         padding-bottom: calc(var(--bs-gutter-y) * 0.1);
-    }
-     .t1 { 
-         font-size: 9.7px;
-         padding: 1.5rem;
-         padding-top: 1.2rem;
-         padding-bottom: 1rem;
-         width: 290px;
-    }
-     .t2 { 
-         font-size: 9.7px;
-         padding:0rem 0rem 0rem 1.5rem;
-         width: 200px;
-    }
-    .img1 img {
-         width:110px;
-    }
-    .img1 {
-         position: relative;
-         transform: translateY(-15%);
-         padding-right: 1rem;
-    }
-    li {
-         padding-top: 4.2rem;
-    }
-    .btn {
-         padding: 2px 9px;
-    }
-    .content {
-         height: 6rem;
-    }
- }
- /***********(min-width: 330px) and (max-width: 342px)***********/
- @media (min-width: 330px) and (max-width: 343px){
-     main {
-          width: auto;
-          height: 297.6px;
-         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
-         padding-bottom: calc(var(--bs-gutter-y) * 0.1);
-    }
-     .t1 { 
-         font-size: 10px;
-         padding: 1.5rem;
-         padding-bottom: 1rem;
-         width: 300px;
-    }
-     .t2 { 
-         font-size: 10px;
-         padding:0rem 0rem 0rem 1.5rem;
-         width: 180px;
-    }
-    .img1 img {
-         width:112px;
-    }
-    .img1 {
-         position: relative;
-         transform: translateY(-15%);
-         padding-right: 1rem;
-    }
-    li {
-         padding-top: 4rem;
-    }
-    .btn {
-         padding: 2px 9px;
-    }
-    .content {
-         height: 6rem;
-    }
- }
- /***********(min-width: 343px) and (max-width: 352px)***********/
- @media (min-width: 343px) and (max-width: 352px){
-     main {
-          width: auto;
-          height: 297.6px;
-         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
-         padding-bottom: calc(var(--bs-gutter-y) * 0.1);
-    }
-     .t1 { 
-         font-size: 10px;
-         padding: 1.5rem 1.8rem 1rem 1.8rem;
-    }
-     .t2 { 
-         font-size: 10px;
-         padding:0rem 0rem 0rem 1.8rem;
-         width: 180px;
-    }
-    .img1 img {
-         width:120px;
-    }
-    .img1 {
-         position: relative;
-         transform: translateY(-15%);
-         padding-right: 1rem;
-    }
-    li {
-         padding-top: 4rem;
-    }
-    .btn {
-         padding: 2px 9px;
-    }
-    .content {
-         height: 6rem;
-    }
- }
- /***********(min-width: 353px) and (max-width: 359px)***********/
- @media (min-width: 353px) and (max-width: 360px){
-     main {
-         width: auto;
-         height: 316px;
-         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
-         padding-bottom: calc(var(--bs-gutter-y) * 0.1);
-    }
-     .img1 img {
-         width:100px;
-    }
-    .t1 { 
-         font-size: 10.25px;
-         padding:  1.5rem 2rem;
-    }
-     .t2 { 
-         font-size: 10.25px;
-         padding:0rem 0rem 0rem 2rem;
-         width: 200px;
-    }
-    .img1 img {
-         width:120px;
-    }
-    .img1 {
-         position: relative;
-         transform: translateY(-15%);
-         padding-right: 1.2rem;
-    }
-    li {
-         padding-top: 4.5rem;
-    }
-    .btn {
-         padding: 2.5px 9px;
-    }
-    .content {
-         height: 6.5rem;
-    }
- }
- /***********(min-width: 360px) and (max-width: 371px)***********/
- @media (min-width: 360px) and (max-width: 372px){
-     main {
-         width: auto;
-         height: 316px;
-         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
-         padding-bottom: calc(var(--bs-gutter-y) * 0.1);
-    }
-     .img1 img {
-         width:100px;
-    }
-    .t1 { 
-         font-size: 10.5px;
-         padding:  1.5rem 2.1rem;
-         width: 330px;
-    }
-     .t2 { 
-         font-size: 10.5px;
-         padding:0rem 0rem 0rem 2.1rem;
-         width: 190px;
-    }
-    .img1 img {
-         width:120px;
-    }
-    .img1 {
-         position: relative;
-         transform: translateY(-15%);
-         padding-right: 1rem;
-    }
-    li {
-         padding-top: 4.6rem;
-    }
-    .btn {
-         padding: 2.5px 9px;
-    }
-    .content {
-         height: 6.5rem;
-    }
- }
- /***********(min-width: 372px) and (max-width: 372px)***********/
- @media (min-width: 372px) and (max-width: 372px){
-     main {
-         width: auto;
-         height: 326.4px;
-         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
-         padding-bottom: calc(var(--bs-gutter-y) * 0.1);
-    }
-     .img1 img {
-         width:100px;
-    }
-    .t1 { 
-         font-size: 11px;
-         padding: 0rem 1.7rem;
-         padding-top: 1.5rem;
-         padding-bottom: 1rem;
-    }
-     .t2 { 
-         font-size: 11px;
-         padding:0rem 0rem 0rem 1.7rem;
-         width: 190px;
-    }
-    .img1 img {
-         width:125px;
-    }
-    .img1 {
-         position: relative;
-         transform: translateY(-15%);
-         padding-right: 1.2rem;
-    }
-    li {
-         padding-top: 5rem;
-    }
-    .btn {
-         padding: 2.5px 9px;
-    }
-    .content {
-         height: 6.5rem;
-    }
- }
-  /***********(min-width: 373px) and (max-width: 392px)***********/
-  @media (min-width: 373px) and (max-width: 393px){
-       main {
-           width: auto;
-           height: 326.4px;
-           margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
-           padding-bottom: calc(var(--bs-gutter-y) * 0.1);
-      }
-       .img1 img {
-           width:100px;
-      }
-      .t1 { 
-           font-size: 11.3px;
-           padding-top: 1.4rem;
-           padding-bottom: 1rem;
-           padding-left: 2rem;
-           padding-right: 0.8rem;
-           width: 330px;
-      }
-       .t2 { 
-           font-size: 11.3px;
-           padding:0rem 0rem 0rem 2rem;
-           width: 200px;
+          height: 312px;
+          margin:calc( 5* var(--bs-gutter-y)) auto;
+          margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
       }
       .img1 img {
-           width:125px;
+          width: 110px;
       }
       .img1 {
-           position: relative;
-           transform: translateY(-15%);
-           padding-right: 1rem;
+          position: relative;
+          transform: translateY(2%);
+          padding-right: 0.5rem;
       }
-      li {
-           padding-top: 4.5rem;
+      .btn { 
+          padding: 2px 8px;
       }
-      .btn {
-           padding: 2.5px 9px;
+      .t1 {
+          font-size: 8.7px;
+          padding: 1.8rem;
+          padding-top: 2.2rem;
+          padding-bottom: 0rem;
+          width: 280px;
       }
-      .content {
-           height: 6.5rem;
+      .t2 {
+          font-size: 8.7px;
+          padding: 2rem 0rem 0rem 1.8rem;
+          width: 160px;
+          height: 100px;
       }
-   }
-   /***********(min-width: 393px) and (max-width: 400px)***********/
-  @media (min-width: 393px) and (max-width: 400px){
+}
+/***********(min-width: 324px) and (max-width: 347px)***********/
+@media (min-width: 324px) and (max-width: 348px){
      main {
-         width: auto;
-         height: 326.4px;
-         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
-         padding-bottom: calc(var(--bs-gutter-y) * 0.1);
-    }
-     .img1 img {
-         width:100px;
-    }
-    .t1 { 
-         font-size: 11.3px;
-         padding-top: 1.2rem;
-         padding-bottom: 0.8rem;
-         padding-left: 2.2rem;
-         padding-right: 1.2em;
-         width: 335px;
-    }
-     .t2 { 
-         font-size: 11.3px;
-         padding:0rem 0rem 0rem 2.2rem;
-         width: 210px;
-    }
-    .img1 img {
-         width:130px;
-    }
-    .img1 {
-         position: relative;
-         transform: translateY(-20%);
-         padding-right: 1rem;
-    }
-    li {
-         padding-top: 4.9rem;
-    }
-    .btn {
-         padding: 2.5px 9px;
-    }
-    .content {
-         height: 6rem;
-    }
- }
-/***********(min-width: 401px) and (max-width: 420px)***********/
-@media (min-width: 401px) and (max-width: 420px){
-     main {
-         width: auto;
-         height: 400px;
-         margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
-    }
-    .t1 { 
-           font-size: 12px;
-           padding:  1.5rem 2rem;
-           padding-top: 2.5rem;
-      }
-       .t2 { 
-           font-size: 12px;
-           padding:0rem 0rem 0rem 2rem;
-           width: 200px;
+          width: auto;
+          height: 324px;
+          margin:calc( 5* var(--bs-gutter-y)) auto;
+          margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
       }
       .img1 img {
-           width:150px;
+          width: 112px;
       }
       .img1 {
-           position: relative;
-           transform: translateY(-15%);
-           padding-right: 1.2rem;
+          position: relative;
+          transform: translateY(10%);
+          padding-right: 0.8rem;
       }
-      li {
-           padding-top: 6.1rem;
+      .btn { 
+          padding: 2px 8px;
       }
-      
-      .content {
-           height: 8rem;
+      .t1 {
+          font-size: 9.8px;
+          padding: 1.8rem;
+          padding-top: 2.2rem;
+          padding-bottom: 0rem;
+          width: 305px;
       }
-   }
+      .t2 {
+          font-size: 9.8px;
+          padding: 1.2rem 0rem 0rem 1.8rem;
+          width: 180px;
+          height: 100px;
+      }
+}
+/***********(min-width: 348px) and (max-width: 371px)***********/
+@media (min-width: 348px) and (max-width: 372px){
+     main {
+          width: auto;
+          height: 336px;
+          margin:calc( 5* var(--bs-gutter-y)) auto;
+          margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+      }
+      .img1 img {
+          width: 120px;
+      }
+      .img1 {
+          position: relative;
+          transform: translateY(6%);
+          padding-right: 1rem;
+      }
+      .btn { 
+          padding: 2px 8px;
+      }
+      .t1 {
+          font-size: 10.5px;
+          padding-left: 2rem;
+          padding-right: 1.6rem;
+          padding-top: 2.2rem;
+          padding-bottom: 0rem;
+          width: 325px;
+      }
+      .t2 {
+          font-size: 10.5px;
+          padding: 1.5rem 0rem 0rem 2rem;
+          width: 190px;
+          height: 100px;
+      }
+}
+/***********(min-width: 372px) and (max-width: 395px)***********/
+@media (min-width: 372px) and (max-width: 396px){
+     main {
+          width: auto;
+          height: 348px;
+          margin:calc( 5* var(--bs-gutter-y)) auto;
+          margin:calc(5 * var(--bs-gutter-y)) calc(var(--bs-gutter-x) * 0.5);
+      }
+      .img1 img {
+          width: 125px;
+      }
+      .img1 {
+          position: relative;
+          transform: translateY(5%);
+          padding-right: 1rem;
+      }
+      .btn { 
+          padding: 2px 8px;
+      }
+      .t1 {
+          font-size: 11.5px;
+          padding-left: 1.8rem;
+          padding-right: 1.6rem;
+          padding-top: 1.5rem;
+          padding-bottom: 0rem;
+          width: 345px;
+      }
+      .t2 {
+          font-size: 11.5px;
+          padding: 1.2rem 0rem 0rem 1.8rem;
+          width: 200px;
+          height: 100px;
+      }
+}
